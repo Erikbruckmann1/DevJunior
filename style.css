@@ -181,3 +181,27 @@ footer {
     font-weight: lighter;
     color: gold;
 }
+
+
+
+@media screen and (max-width: 768px) {
+    .header{
+        
+    }
+   h2{
+     width: 65%;
+     font-size: 1rem;
+     flex-direction: column;
+   } 
+  
+    .modal-content{
+        width: 75%;
+       flex-direction: column;
+       
+    }
+    .footer-logo{
+        width: 40%;
+        align-items: center;
+        font-size: 1rem;
+    }
+}
